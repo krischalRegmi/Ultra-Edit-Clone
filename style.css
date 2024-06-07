@@ -4,10 +4,24 @@
 }
 
 .navbar {
-  height:5vh;
+  height:10vh;
   width:100%;
-  background-color: #eb7fad;
+  background-color: #ffffff;
   position: sticky;
+  top: 0px;
+}
+
+.navbar img {
+  height:10vh;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.7em;
+  font-family: Seoge UI, Helvetica, sans-serif;
 }
 
 .mainbox {
